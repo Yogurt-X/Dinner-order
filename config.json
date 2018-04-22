@@ -1,0 +1,31 @@
+{
+  "env":{
+    "port": "8000"
+  },
+  "time":{
+    "startTime":[8,15],
+    "finshTime":[16,20],
+    "sendTime":[14,51],
+    "cleanTime":[8,0]
+  },
+  "db":{
+    "url":"mongodb://localhost:27017/orderDinnerDB"
+  },
+  "mail":{
+   "transporter":{
+      "host": "xxx",
+      "port": 25,
+      "secure": false,
+      "auth": {
+        "user": "xxx",
+        "pass": "xxx"
+      }
+    },
+    "mailOptions":{
+      "from": "'xxx' xxx",
+      "to": "xxx",
+      "subject": "今日订餐人员名单",
+      "text": "今日订餐人员名单"
+    }
+  }
+}
